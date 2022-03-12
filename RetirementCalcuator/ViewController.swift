@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func calculateBtnTapped(_ sender: UIButton) {
-        print("Hi man")
+        print("Hello, World!")
     }
 }
 
