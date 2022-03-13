@@ -49,7 +49,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Calculate"/>
                                         <connections>
-                                            <action selector="calculateBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bs2-cF-0Oc"/>
+                                            <action selector="calculateButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oY3-c6-zjB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -72,6 +72,14 @@
                             <constraint firstItem="IWb-hk-YkH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="n0L-Gr-F6b"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="5Q8-5E-RRj" id="cVY-b5-9mJ"/>
+                        <outlet property="interestRateTextField" destination="18A-w3-3dq" id="4e6-85-evc"/>
+                        <outlet property="monthlyInvestmentsTextField" destination="8Qq-Oz-BMT" id="QZN-Vg-rGa"/>
+                        <outlet property="resultLabel" destination="dds-mV-noQ" id="i7H-J6-EC9"/>
+                        <outlet property="retirementAgeTextField" destination="iqZ-Rt-jmw" id="mwz-Jn-H6D"/>
+                        <outlet property="savingsTextField" destination="ghL-AE-CYP" id="Gz0-cy-yY4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

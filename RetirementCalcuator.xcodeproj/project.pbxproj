@@ -15,7 +15,6 @@
 		4C5A445427DA803200B9C70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5A445227DA803200B9C70B /* LaunchScreen.storyboard */; };
 		4C5A445F27DA803200B9C70B /* RetirementCalcuatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A445E27DA803200B9C70B /* RetirementCalcuatorTests.swift */; };
 		4C5A446927DA803200B9C70B /* RetirementCalcuatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A446827DA803200B9C70B /* RetirementCalcuatorUITests.swift */; };
-		4C5A446B27DA803200B9C70B /* RetirementCalcuatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A446A27DA803200B9C70B /* RetirementCalcuatorUITestsLaunchTests.swift */; };
 		751261FA0A80F665EF482D22 /* Pods_RetirementCalcuatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEED11FEEE0A3BBDD0C0933D /* Pods_RetirementCalcuatorTests.framework */; };
 		D9A88FF8E4FA90F61D3F9CF0 /* Pods_RetirementCalcuator_RetirementCalcuatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373E5B90D58CC83C82D6B7AE /* Pods_RetirementCalcuator_RetirementCalcuatorUITests.framework */; };
 		F3A8F5BF912287DA9B1AD91E /* Pods_RetirementCalcuator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BB3F11FE282BF22AAE29CA /* Pods_RetirementCalcuator.framework */; };
@@ -58,7 +57,6 @@
 		4C5A445E27DA803200B9C70B /* RetirementCalcuatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalcuatorTests.swift; sourceTree = "<group>"; };
 		4C5A446427DA803200B9C70B /* RetirementCalcuatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalcuatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5A446827DA803200B9C70B /* RetirementCalcuatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalcuatorUITests.swift; sourceTree = "<group>"; };
-		4C5A446A27DA803200B9C70B /* RetirementCalcuatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalcuatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D536C1EEF77BD91EE4F64975 /* Pods-RetirementCalcuator-RetirementCalcuatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetirementCalcuator-RetirementCalcuatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-RetirementCalcuator-RetirementCalcuatorUITests/Pods-RetirementCalcuator-RetirementCalcuatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEED11FEEE0A3BBDD0C0933D /* Pods_RetirementCalcuatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalcuatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 				45E7672831C685A4468552B3 /* Pods-RetirementCalcuatorTests.debug.xcconfig */,
 				0F3EA686128A7578FB3DAAA7 /* Pods-RetirementCalcuatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				4C5A446827DA803200B9C70B /* RetirementCalcuatorUITests.swift */,
-				4C5A446A27DA803200B9C70B /* RetirementCalcuatorUITestsLaunchTests.swift */,
 			);
 			path = RetirementCalcuatorUITests;
 			sourceTree = "<group>";
@@ -389,7 +385,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5A446B27DA803200B9C70B /* RetirementCalcuatorUITestsLaunchTests.swift in Sources */,
 				4C5A446927DA803200B9C70B /* RetirementCalcuatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
