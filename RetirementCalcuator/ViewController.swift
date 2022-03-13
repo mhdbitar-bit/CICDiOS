@@ -43,5 +43,4 @@ class ViewController: UIViewController {
         
         Analytics.trackEvent("calculate_retirement_amount", withProperties: properties)
     }
-    
 }
